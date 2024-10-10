@@ -19,6 +19,8 @@ nav{
     padding: 5px;
     border: solid;
     border-radius: 10px;
+    display: inline;
+    text-decoration: none;
 }
 .header{
     text-align: center;
@@ -63,6 +65,7 @@ header>button{
     border: solid;
     border-radius: 5px;
     font-size: 15px;
+    font-weight: 300px;
 }
 
 .secend-title{
@@ -76,4 +79,34 @@ header>button{
 }
 .heading-title{
     font-size: 35px;
+}
+.card-title{
+    font-weight: 400px;
+}
+
+.learn{
+    font-size: 15px;
+    display: inline;
+    color: black;
+}
+.learn-more{
+    font-size: 15px;
+    font-weight: 300;
+}
+.first-card{
+    padding: 10px;
+    background-color: #fff6f4;
+
+}
+.secend-card{
+    padding: 10px;
+    background-color: #f2f6fe;
+}
+.third-card{
+    padding: 10px;
+    background-color: #fffdf2;
+}
+.main-card{
+    display: flex;
+    column-gap: 20px;
 }
