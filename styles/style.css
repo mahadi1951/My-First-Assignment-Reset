@@ -1,0 +1,66 @@
+
+
+.all-body{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.download{
+
+    padding: 5px;
+    border: solid;
+    border-radius: 10px;
+}
+.header{
+    text-align: center;
+    
+    
+}
+header>h1{
+    font-size: 50px;
+}
+header>button{
+    border: solid 1px ;
+    font-size: 20px;
+    border-radius: 10px;
+    -webkit-text-fill-color: aliceblue;
+    background-color: black;
+    margin-top: 30px;
+    padding: 20px;
+  
+    
+
+}
+.why{
+    text-align: center;
+    margin-top: 110px;
+}    
+.first-image{
+    display: flex;
+
+}
+.img{
+     margin-left: 130px;
+    }
+.text-title{
+    font-size: 25px;
+}
+
+.title{
+    font-size: 35px;
+}
+
+.button{
+    border: solid;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.secend-title{
+    margin-left: 130px;
+
+}
