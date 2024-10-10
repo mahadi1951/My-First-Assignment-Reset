@@ -110,3 +110,18 @@ header>button{
     display: flex;
     column-gap: 20px;
 }
+.react-box{
+    margin-top: 20px;
+}
+.react-block{
+    
+    display: flex;
+    border: solid 1px;
+    border-radius: 30px;
+    gap:80px;
+    margin-top:20px;
+    
+}
+.pic-position{
+    padding: 40px;
+}
