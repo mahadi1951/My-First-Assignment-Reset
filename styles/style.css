@@ -1,5 +1,10 @@
 
 
+ 
+  /* font-family:{"Azeret Mono", monospace;}  */
+  
+
+
 .all-body{
     margin-left: 5%;
     margin-right: 5%;
@@ -63,4 +68,12 @@ header>button{
 .secend-title{
     margin-left: 130px;
 
+}
+.my-title{
+    text-align: center;
+    margin-top: 110px;
+    
+}
+.heading-title{
+    font-size: 35px;
 }
