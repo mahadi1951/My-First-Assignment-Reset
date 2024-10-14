@@ -11,11 +11,11 @@
   
 
 
+/* nav section */
 
-
-nav{
+.nav{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
    
 }
 .download-resume{
@@ -30,16 +30,19 @@ nav{
 
 
 .header{
-   
+    margin: 50px;
+    height: auto;
+    width:auto;
     text-align: center;
     background-image: url(./images/Hero-bg.png);
-    width: 100%;
-  
-    
-    
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 20px 20px;    
 }
 header>h1{
-    font-size: 50px;
+    font-size: 40px;
 }
 .button{
     border: solid 1px ;
@@ -49,20 +52,19 @@ header>h1{
     background-color: black;
     margin-top: 30px;
     padding: 20px;
-  
-    
+ }
 
+/* main part */
+.main{
+    margin: 50px 70px;
+}
+.section{
+    margin: 10px;
+    background-color: rgba(244, 226, 226, 0.266);
+    padding: 30px 40px;
+    border-radius: 10px;
 }
 
-.common-button{
-    border: solid 1px ;
-    font-size: 15px;
-    border-radius: 5px;
-   
-    
-    margin-top: 10px;
-    padding: 20px;
-}
 .description{
     font-weight: 400px;
     color: black;
@@ -86,17 +88,11 @@ header>h1{
     font-size: 35px;
 }
 
-/* .button{
-    border: solid;
-    border-radius: 5px;
-    font-size: 15px;
-    font-weight: 300px;
-} */
-
 .secend-title{
     margin-left: 130px;
 
 }
+/* section two  */
 .my-title{
     text-align: center;
     margin-top: 110px;
@@ -105,6 +101,13 @@ header>h1{
 .heading-title{
     font-size: 35px;
 }
+.video{
+    margin-top: 30px;
+    border: 2px solid rgba(222, 211, 211, 0.658);
+    border-radius: 9px;
+    padding: 40px;
+ }
+/* care section */
 .card-title{
     font-weight: 400px;
 }
@@ -135,6 +138,7 @@ header>h1{
     display: flex;
     column-gap: 20px;
 }
+ /* react sections  */
 .react-box{
     margin-top: 20px;
 }
@@ -150,15 +154,19 @@ header>h1{
 .pic-position{
     padding: 40px;
 }
+
+/* bacground img section */
 .bacground-box{
-    margin-top: 50px;
     text-align: center;
-    background-image: url("./images/handshake.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-   background-opacity: 59px;
+    margin-top: 50px;
     height: 300px;
-    width: 1000px;
+    background-color: rgba(0, 0, 0, 0.603);
+    background-image: url('../styles/images/handshake.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    border-radius: 9px;
 
 }
 .text-shadow{
@@ -174,9 +182,7 @@ header>h1{
 .input-bg{
    
 }
-.plesholder-box{
 
-}
 .submit, .plesholder-box{
     border-radius: 5px;
     background-color: #f2f6fe;
@@ -185,6 +191,7 @@ header>h1{
 .bacground-box{
     width: 100%;
 }
+/* footer section */
 .foot {
     display: flex;
     justify-content: space-between;
