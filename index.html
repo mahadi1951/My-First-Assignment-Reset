@@ -6,53 +6,63 @@
     <title>My First Assignment</title>
     <link rel="stylesheet" href="styles/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
 </head>
-<body class="all-body">
+<body style="max-width: 1000px; margin: 0 auto;" class="open-sans-normal">
     <!-- nav section -->
     <nav>
-        <h2>Awlad.H</h2>
-       <p class="download"> <a href="https://www.facebook.com/mahadi195065">Download Resume</a></p>
+        <h3>Mahadi Hassan</h3>
+        <button class="download-resume">Download Resume</button>
     </nav>
-    <!-- header section -->
+     <!-- header section -->
     <section>
         <header class="header">
             <img src="styles/images/Group.png" alt="">
             <h1>"In the near future, I hope to <br> become a Developer."</h1>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
-            <button >Contact with me</button>
+            <p class="description">Sometime in the near future, I hope to become a developer. I'm still not sure what specific area I'd like to focus on or contribute to yet, though.</p>
+            <a href="#footers"> <button class="button">Contact with me</button>
+            </a>
+            
         </header>
     </section>
+    <main>
+           <!-- header section -->
+    
     <!-- why section -->
      <section>
         <div class="why">
             <h2 class="title">Why Web Development??</h2>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+            <p class="description">Web development is a fast-paced, challenging career that revolves around creative problem-solving and continuous innovation.</p>
         </div>
         <div>
             <div class="first-image">
                 <div>
                     <h3 class="text-title">I will Do Coding and Change The World</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                    <button class="button">Learn More</button>
+                    <p class="description">A few ideas: Develop quality software for a company that is making a positive impact on the world.</p>
+                    <button style="height: 30px;">Learn More</button>
                 </div>
                 <div class="img"><img src="styles/images/Layer_1.png" alt=""></div>
             </div>
             <div class="first-image">
                 <div class="img"><img src="styles/images/Group 3.png" alt=""></div>
                 <div class="secend-title">
-                    <h3 class="text-title">I will Do Coding and Change The World</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                    <button class="button">Learn More</button>
+                    <h3 class="text-title">I will help People by creating
+                        Modern Web System</h3>
+                    <p class="description">Great resources for learning modern web design include online courses from platforms like Coursera, Udemy, and LinkedIn Learning.</p>
+                    <button style="height: 30px;">Learn More</button>
+                    
+                    
                 </div>
                 
             </div>
-            <div class="first-image">
+            <div class="third-image">
                 <div>
-                    <h3 class="text-title">I will Do Coding and Change The World</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                    <button class="button">Learn More</button>
+                    <h3 class="text-title">I will Change The World
+                        By Coding</h3>
+                    <p class="description">There’s a world of possibilities that opens up when you know how to code. How do you unlock that door?</p>
+                    <button style="height: 30px;">Learn More</button>
                 </div>
                 <div class="img"><img src="styles/images/Group 4.png" alt=""></div>
             </div>
@@ -64,11 +74,11 @@
         <div class="my-title">
             <div>
                 <h3 class="heading-title">My Inspiration</h3>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <p class="description">Inspiration doesn’t mean trying to imitate your idols. I’ve been inspired by a number of people, including members of my family.</p>
                 
             </div>
             <div>
-                <iframe  width="900" height="515" src="https://www.youtube.com/embed/_eKKttDtyL4?si=aqqwfIGeigWNXQAn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe  style="border-radius: 15px;"  width="900" height="515"  src="https://www.youtube.com/embed/_eKKttDtyL4?si=aqqwfIGeigWNXQAn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen> </iframe>
             </div>
             
         </div>
@@ -77,7 +87,7 @@
        <section>
         <div class="why">
             <h3 class="title">My Current Target</h3>
-            <p class="paragraph">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+            <p class="description">The current Target property returns the element whose event listener triggered the event. This property is read-only.</p>
         </div>
 
             <!-- card section -->
@@ -86,21 +96,21 @@
             <div class="first-card">
                 <img src="styles/images/html.png" alt="">
                 <h2 class="card-title">Html</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing.</p>
-                <a class="learn" href="https://www.facebook.com/mahadi195065"><span class="learn-more">Learn More</span></a>
+                <p class="description">Our step-by-step guide walks you through the basics of HTML and shows you how to build your first website.</p>
+                <a class="learn" href="https://www.w3schools.com/html/html_basic.asp"><span class="learn-more">Learn More</span></a>
 
             </div>
             <div class="secend-card">
                 <img src="styles/images/css.png" alt="">
                 <h2 class="card-title">CSS</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing.</p>
-                <a class="learn" href="https://www.facebook.com/mahadi195065"><span class="learn-more">Learn More</span></a>
+                <p class="description">Our step-by-step guide walks you through the basics of CSS and shows you how to build your first website.</p>
+                <a class="learn" href="https://www.w3schools.com/css/css_intro.asp"><span class="learn-more">Learn More</span></a>
 
             </div><div class="third-card">
                 <img src="styles/images/js.png" alt="">
                 <h2 class="card-title">JavaScript</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing.</p>
-                <a class="learn" href="https://www.facebook.com/mahadi195065"><span class="learn-more">Learn More</span></a>
+                <p class="description">Our step-by-step guide walks you through the basics of JavaScript and shows you how to build your first website.</p>
+                <a class="learn" href="https://www.w3schools.com/js/js_intro.asp"><span class="learn-more">Learn More</span></a>
 
             </div>
         </div>
@@ -108,7 +118,7 @@
        <section>
         <div class="why">
             <h3 class="title">My Next Target</h3>
-            <p class="paragraph">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+            <p class="description">The Next Target property returns the element whose event listener triggered the event. This property is read-only.</p>
         </div>
        <!-- react section -->
         <div class="react-box">
@@ -119,7 +129,7 @@
                 </div>
                 <div>
                     <h2 class="card-title">ReactJS</h2>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the <br>industry's standard dummy text.</p>
+                    <p class="description">Our step-by-step guide walks you through the basics of ReactJS and shows you how to build your first website.</p>
                     <a class="learn" href="https://www.facebook.com/mahadi195065"><span class="learn-more">Learn More</span></a>
                 </div>
     
@@ -132,7 +142,7 @@
                 </div>
                 <div>
                         <h2 class="card-title">NodeJS</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the <br>industry's standard dummy text.</p>
+                        <p class="description">Our step-by-step guide walks you through the basics of NodeJS and shows you how to build your first website.</p>
                         <a class="learn" href="https://www.facebook.com/mahadi195065"><span class="learn-more">Learn More</span></a>
                 </div>
         
@@ -145,7 +155,7 @@
                      </div>
                     <div>
                             <h2  class="card-title">mongodb</h2>
-                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the <br>industry's standard dummy text.</p>
+                             <p class="description">Our step-by-step guide walks you through the basics of mongodb and shows you how to build your first website.</p>
                              <a class="learn" href="https://www.facebook.com/mahadi195065"><span class="learn-more">Learn More</span></a>
                     </div>
 
@@ -154,10 +164,34 @@
     </section>
     <!-- bacground img section -->
     <section>
-        <div>
-
+        <div class="bacground-box">
+            <div class="text-shadow">
+                <h2>I need Support</h2>
+                <p id="small">Talk to someone you know will support you and offer honest advice. If you feel comfortable, consider speaking with a family member or friend.
+                </p>
+                
+            </div>
+            <div class="input-fild">
+                <input style="height: 25px; border: 1px solid white; width: 350px; border-radius: 6px; padding: 3px; font-size: 10px;" type="text" placeholder="Suggest me any feedback for me">
+                <input class="submit" type="submit">
+            </div>
         </div>
     </section>
+    </main>
+    <!-- footer section -->
+    <footer id="footers">
+        <div class="foot">
+            <div>
+                <p style="font-weight: 700;">An Open Commitment by Mahadi Hassan</p>
+            </div>
+            <div style="display: flex; gap: 20px;">
+                <a href="https://https://www.facebook.com/mahadi195065"><img src="./styles/images/facebook.png" alt=""></a>
+                <a href="https://github.com/mahadi1951"><img src="./styles/images/github.png" alt=""></a>
+               <a href="https://www.linkedin.com/"> <img src="./styles/images/linkedin-icon 1.png" alt=""></a>
+            </div>
+        </div>    
+    </footer>
+   
 
     
 </body>
